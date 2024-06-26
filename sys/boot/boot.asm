@@ -275,7 +275,7 @@ absoluteHead:   db 0x00
 absoluteTrack:  db 0x00 
 datasector:     dw 0x0000
 cluster:        dw 0x0000
-ImageName:      db "STAGE2  SYS"
+ImageName:      db "KRNLDR  SYS"
 msgLoading:     db 0x0D, 0x0A, "Loading Boot Image ", 0x0D, 0x0A, 0x00
 msgCRLF:        db 0x0D, 0x0A, 0x00
 msgProgress:    db "*", 0x00
